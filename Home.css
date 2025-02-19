@@ -1,48 +1,57 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #F2F2FC, #D8DFFD);
-    color: #000;
+    background: linear-gradient(135deg, #EFF1FE, #D2D7FF);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    min-height: 758px; 
+    min-width: 1280px;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: auto; 
 }
 
-#home {
-    width: 1280px;
-    height: 832px;
-    padding: 20px;
-}
 
-#home-info {
-    display: flex;  
-    align-items: center;  
-    justify-content: space-between; 
-    gap: 118px;  
-}
-
+/* nav bar */
 nav {
+    width: 1152px;
+    height: auto;
+    margin-top: 29px;
+    align-self: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#logo {
-    height: 30px;
-}
-
-button {
+#about-us {
+    width: 127px;
+    height: 48px;
+    border: none;
     background: black;
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
+    font-size: 16px;
+    border-radius: 100px;
     font-weight: 500;
     cursor: pointer;
 }
+
+/* main content */
+
+#home-info {
+    display: flex;  
+    height: auto;
+    align-self: flex-end;
+    align-items: center;  
+    justify-content: space-between; 
+    gap: 118px;  
+    margin-right: 64px;
+}
+
+#logo {
+    height: 30px;
+    width: 72px;
+}
+
 
 #content {
     width: 472px;
@@ -50,9 +59,12 @@ button {
 }
 
 h1 {
+    height: 195px;
+    line-height: 1.08em;
     font-size: 60px;
     font-weight: bold;
     text-align: left;
+    margin: 0px 0px 32px 0px;
 }
 
 h1 span {
@@ -62,7 +74,7 @@ h1 span {
 p {
     font-size: 16px;
     color: #4A4A4A;
-    margin-top: 32px;
+    margin: 0px 0px 39px 0;
     text-align: left;
 }
 
@@ -96,14 +108,18 @@ label {
     justify-content: center;
     margin-top: 10px;
 }
-/* 
-input[type='checkbox'] {
-    margin-right: 5px;
-} */
-
 
 #events {
     margin-top: 72px;
     width: 482px;
     height: 507px;
+}
+
+#time {
+    margin: 20px 0px 0px 0px;
+    align-self: center;
+}
+
+#time span {
+    border-color: #809BFF;
 }
