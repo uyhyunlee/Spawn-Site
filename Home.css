@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #F2F2FC, #D8DFFD);
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#home {
+    max-width: 800px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo {
+    height: 30px;
+}
+
+button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h1 span {
+    color: #809BFF;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #4A4A4A;
+    margin-top: 10px;
+}
+
+input {
+    border: 2px solid #ccc;
+    padding: 12px;
+    border-radius: 25px;
+    width: 250px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #809BFF;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button span {
+    margin-left: 5px;
+}
+
+label {
+    font-size: 0.9rem;
+    color: #4A4A4A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+input[type='checkbox'] {
+    margin-right: 5px;
+}
+
+.relative {
+    position: relative;
+}
+
+#events {
+    width: 482px;
+    height: 507px;
+}
